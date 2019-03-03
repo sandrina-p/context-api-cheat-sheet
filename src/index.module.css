@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background-color: var(--clr-bg);
+  color: var(--clr-fg);
+  line-height: 1.5;
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+ul:last-child {
+  margin-bottom: 0;
+}
+
+pre {
+  display: inline;
+  white-space: pre-line;
+  font-size: 1.1rem;
+}
+
+code {
+  border-top: 1px solid #d1cea8;
+  display: block;
+  white-space: pre;
+  background-color: var(--clr-code-bg);
+  color: var(--clr-fg);
+  border-radius: 0 0 0.3rem 0.3rem;
+}
+
+a {
+  color: var(--clr-link);
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+  outline: none;
+}
+
+button:focus {
+  outline: 1px solid var(--clr-link);
+  outline-offset: 2px;
+}
+
+.App {
+  font-family: sans-serif;
+  max-width: 45rem;
+  margin: 0 auto;
+}

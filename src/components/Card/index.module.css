@@ -1,0 +1,7 @@
+.card {
+  position: relative;
+  margin: 1rem;
+  border: 1px solid var(--clr-fg);
+  border-radius: 3px;
+  padding: 1rem;
+}
