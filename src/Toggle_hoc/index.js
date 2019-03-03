@@ -17,7 +17,7 @@ function Toggle({ theme, toggleTheme }) {
   // ...that wrapped Toggle
   withTheme(Toggle);
       `}</code>
-      <ul>
+      <Notes>
         <li>
           Wrap the whole Component in a{" "}
           <a
@@ -44,7 +44,7 @@ function Toggle({ theme, toggleTheme }) {
         <li>
           Read Component and tests at <b>/Toogle_hoc</b> for more info.
         </li>
-      </ul>
+      </Notes>
     </Card>
   );
 }

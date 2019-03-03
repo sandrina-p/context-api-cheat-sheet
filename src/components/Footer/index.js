@@ -11,14 +11,14 @@ export default function Footer() {
         </a>{" "}
         or{" "}
         <a
-          href="https://github.com/sandrina-p/context-api-cheatcode/tree/master/"
+          href="https://github.com/sandrina-p/context-api-cheat-sheet/tree/master/"
           target="_blank"
         >
           Github
         </a>
       </p>
       <p>
-        Made with â¥ by{" "}
+        Made with 👩‍💻 by{" "}
         <a href="http://sandrina-p.net" target="_blank">
           Sandrina Pereira
         </a>

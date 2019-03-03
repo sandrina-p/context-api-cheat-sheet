@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Controller } from "../components";
+import { Card, Controller, Notes } from "../components";
 import { useThemeContext } from "../context-theme/";
 
 export default function Toggle() {
@@ -12,7 +12,7 @@ export default function Toggle() {
   const {(toggleTheme, theme)} = useContext(ThemeContext);
       `}</code>
 
-      <ul>
+      <Notes>
         <li>
           Similar to how <pre>Class.contextType</pre> works but with support to
           multiple contexts.
@@ -41,7 +41,7 @@ export default function Toggle() {
           </a>
           .
         </li>
-      </ul>
+      </Notes>
     </Card>
   );
 }

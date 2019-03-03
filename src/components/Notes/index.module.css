@@ -1,0 +1,15 @@
+.text {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  opacity: 0.6;
+}
+
+.list {
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.list:last-child {
+  margin-bottom: 0;
+}

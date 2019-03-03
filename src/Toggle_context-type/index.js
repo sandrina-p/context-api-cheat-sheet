@@ -25,7 +25,7 @@ class Toggle extends React.Component {
   Toggle.contextType = ThemeContext;
       `}
         </code>
-        <ul>
+        <Notes>
           <li>
             Direct access to Context with <pre>this.context</pre> but can
             subscribe to only 1 context.{" "}
@@ -62,7 +62,7 @@ class Toggle extends React.Component {
           <li>
             Read Component and tests at <b>/Toogle_context-type</b>.
           </li>
-        </ul>
+        </Notes>
       </Card>
     );
   }

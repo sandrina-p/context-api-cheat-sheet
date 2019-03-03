@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Controller } from "../components";
+import { Card, Controller, Notes } from "../components";
 import { ThemeConsumer } from "../context-theme/";
 
 function Toggle() {
@@ -22,7 +22,7 @@ function Toggle() {
   </ThemeConsumer>
       `}
       </code>
-      <ul>
+      <Notes>
         <li>
           💚 It's the most verbose solution but only re-render part of the
           component wrapped on the Consumer, when the Provider value updates.
@@ -51,7 +51,7 @@ function Toggle() {
         <li>
           Read Component and tests at <b>/Toogle_children</b>.
         </li>
-      </ul>
+      </Notes>
     </Card>
   );
 }
