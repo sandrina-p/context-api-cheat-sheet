@@ -6,23 +6,23 @@ export default function Header() {
     <div className={Styles.wrapper}>
       <h1>React Context - CheatSheet</h1>
       <p>
-        The new Context API is one of the best features of React 16. At the same
-        time is one of the features where I see more devs struggling with it
-        especially when accessing the context. Since its release I've been
+        The new Context API is one of the hottest features in React 16. However,
+        it is one of those features where I see more devs struggling with,
+        especially when consuming the context. Since its release I've been
         facing / asking / answering the same questions over and over again: How
-        to use or how to test something that involves React Context API and
-        testing with Enzyme.
+        to use or test a component that consumes React Context using render
+        prop, HOC, contextType or hooks.
       </p>
       <p>
         I made this interactive guide on{" "}
-        <a target="_blank" href="https://codesandbox.io/s/ymxk18rkyz">
+        <a target="_blank" href="https://codesandbox.io/s/7z3vpo3916">
           Codesandbox
         </a>{" "}
-        about each way of using Context API and the respective demos. This is my
-        journey of discoveries related to React Context. If you find something
-        wrong, missing or outdated, please let me know and I'll update the
-        project 👩‍💻
+        about each way of consuming and testing React Context API. This is my
+        journey of discoveries related to it. If you find something wrong,
+        missing or outdated, please let me know and I'll update it. 👩‍💻
       </p>
+      <hr />
       <p>
         Before using any of the following, make sure to{" "}
         <a

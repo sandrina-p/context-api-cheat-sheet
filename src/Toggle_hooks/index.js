@@ -41,6 +41,9 @@ export default function Toggle() {
           </a>
           .
         </li>
+        <li>
+          Read Component and tests at <b>/Toogle_hooks</b>.
+        </li>
       </Notes>
     </Card>
   );

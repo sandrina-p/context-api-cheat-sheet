@@ -24,8 +24,9 @@ function App() {
           <Footer />
         </div>
       </ThemeProvider>
-      {/* If you try to use a Consumer outside its Provider,
-        it will throw an error - see how at context-theme/useThemeContext.js */}
+      {/* If you try to use a Consumer outside
+      its Provider, it will throw an error
+      - see how at context-theme/useThemeContext.js */}
       {/* <ToggleHooks /> */}
     </div>
   );

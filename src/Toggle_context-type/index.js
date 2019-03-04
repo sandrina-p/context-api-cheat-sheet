@@ -8,7 +8,7 @@ class Toggle extends React.Component {
   // static contextType = ThemeContext;
 
   render() {
-    console.log("Renders on Theme update (context-type, hoc and hooks)");
+    console.log("Renders on Theme update (from context-type)"); // happens the same to hoc and hooks
 
     const { toggleTheme, theme } = this.context;
     return (
@@ -55,7 +55,7 @@ class Toggle extends React.Component {
             >
               static class field
             </a>{" "}
-            to initialize your contextType.
+            to initialize contextType.
             <br />
             <pre>static contextType = ThemeContext;</pre>
           </li>

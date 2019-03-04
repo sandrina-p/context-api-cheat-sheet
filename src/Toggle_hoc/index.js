@@ -27,7 +27,7 @@ function Toggle({ theme, toggleTheme }) {
             HOC
           </a>{" "}
           and have direct access to the Context by props. 😶This is an advanced
-          React pattern and it might be a little confunsing for some newcomers
+          React pattern and it might be a little confunsing for newcomers
           because they might not understand where a prop comes from if not well
           documented.
         </li>

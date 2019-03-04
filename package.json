@@ -1,8 +1,14 @@
 {
   "name": "react-context-cheatsheet",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "Interactive guide about each way of consuming and testing React Context API.",
+  "keywords": [
+    "react cheatsheet",
+    "react context",
+    "unit testing js",
+    "react",
+    "enzyme"
+  ],
   "main": "src/index.js",
   "dependencies": {
     "@babel/runtime": "7.3.1",

@@ -1,9 +1,9 @@
 import React from "react";
 import { Card, Controller, Notes } from "../components";
-import { ThemeConsumer } from "../context-theme/";
+import { ThemeConsumer } from "../context-theme/"; // import directly the Consumer
 
 function Toggle() {
-  console.log("Using Children Function doesn't run on Theme update");
+  console.log("Using 'render prop' doesn't re-render on Theme update");
   return (
     <Card>
       <ThemeConsumer>
@@ -17,17 +17,17 @@ function Toggle() {
       </ThemeConsumer>
       <code>
         {`
-  <ThemeConsumer>
+  <ThemeProvider.Consumer>
     { (context) => <Controller theme={ context } /> }
-  </ThemeConsumer>
+  </ThemeProvider.Consumer>
       `}
       </code>
       <Notes>
         <li>
           💚 It's the most verbose solution but only re-render part of the
           component wrapped on the Consumer, when the Provider value updates.
-          Because of that, I prefer this solution when I need the Context just
-          on part of a component to avoid extra re-renders.
+          Because of that, I prefer this solution when I need just part of the
+          Context in a component, to avoid extra re-renders.
         </li>
         <li>
           To assert something inside the Consumer, using Enzyme Shallow, use{" "}
@@ -35,7 +35,7 @@ function Toggle() {
             href="https://airbnb.io/enzyme/docs/api/ShallowWrapper/renderProp.html"
             target="_blank"
           >
-            <pre>.renderProp('children')</pre>
+            <pre>.renderProp('children')(mockContext)</pre>
           </a>{" "}
           on the element that has the Consumer.{" "}
         </li>

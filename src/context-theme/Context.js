@@ -13,7 +13,7 @@ class ThemeProvider extends Component {
     this.variables = {
       light: {
         clrBg: "#fbfbfb",
-        clrFg: "#222",
+        clrFg: "#333",
         clrCodeBg: "#f3f0ca",
         clrLink: "#008080"
       },
